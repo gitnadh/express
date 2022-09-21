@@ -3,12 +3,12 @@ const router = express.Router();
 
 
 router.get("/services",(req,res)=>{
-    res.render("OurServices");
+    res.render("Ourservices");
 });
 
 
-router.get("/contact",(req,res)=>{
-    res.render("ContactUs");
+router.get("/Contactus",(req,res)=>{
+    res.render("Contactus");
 });
 
 
